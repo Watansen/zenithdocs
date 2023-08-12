@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "description": "A modern web for document sharing using the Next.js framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc"
+  },
+  "keywords": ["nextjs", "typescript", "tailwindcss", "document sharing"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "next-auth": "^3.27.3",
+    "tailwindcss": "^2.2.16",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "@types/react": "^17.0.19",
+    "@types/node": "^16.7.13"
+  }
+}
